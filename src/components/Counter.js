@@ -8,7 +8,7 @@ import classes from "./Counter.module.css";
 //   TOGGLE_COUNTER,
 // } from "../store/index";
 
-import { counterActions } from "../store/index";
+import { counterActions } from "../store/counter-slice";
 
 const Counter = () => {
   const dispatch = useDispatch();
